@@ -414,7 +414,7 @@ a {
 }
 /* line 204, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #c43a1d;
+  color: #b7361b;
 }
 /* line 207, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -447,7 +447,7 @@ p aside {
 /* line 229, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-enzo-web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -964,25 +964,34 @@ h1, h5 {
 /* line 4, ../scss/components/_type.scss */
 h5 {
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1em;
 }
 
-/* line 6, ../scss/components/_type.scss */
+/* line 10, ../scss/components/_type.scss */
 .img-src {
   margin: 12px 0;
   text-align: center;
 }
-/* line 9, ../scss/components/_type.scss */
+/* line 13, ../scss/components/_type.scss */
 .img-src p {
   color: #666;
   font-size: 0.85714rem;
 }
 
-/* line 15, ../scss/components/_type.scss */
+/* line 18, ../scss/components/_type.scss */
+a {
+  -webkit-transition: color 200ms;
+  /* For Safari 3.1 to 6.0 */
+  transition: color 200ms;
+}
+
+/* line 22, ../scss/components/_type.scss */
 hr {
   border-color: #edeff2;
   margin: 36px 0;
 }
-/* line 18, ../scss/components/_type.scss */
+/* line 25, ../scss/components/_type.scss */
 hr:after {
   display: block;
   width: 36px;
