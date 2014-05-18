@@ -39,14 +39,11 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-h1, h5 {
-  color: #75859E;
-}
-h5 { text-transform: uppercase; }
 // Custom Styles
 @import
-  "components/main-content",
-  "components/img",
+  "components/about-me",
   "components/centered-lists",
-  "components/about-me";
+  "components/img",
+  "components/main-content",
+  "components/type";
 

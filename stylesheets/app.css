@@ -829,14 +829,90 @@ blockquote p {
     display: inherit !important;
   }
 }
-/* line 42, ../scss/app.scss */
-h1, h5 {
-  color: #75859E;
+/* line 1, ../scss/components/_about-me.scss */
+.about-me {
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../scss/components/_about-me.scss */
+  .about-me {
+    margin-top: 40px;
+  }
 }
 
-/* line 45, ../scss/app.scss */
-h5 {
-  text-transform: uppercase;
+/* line 13, ../scss/components/_about-me.scss */
+.about-me-info {
+  padding: 24px;
+}
+/* line 15, ../scss/components/_about-me.scss */
+.about-me-info p {
+  font-size: 1.28571rem;
+  color: #686868;
+}
+
+/* line 1, ../scss/components/_centered-lists.scss */
+ul {
+  margin: 0 auto 1.21429rem auto;
+  margin-left: -1.57143rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  margin-left: 0;
+  margin: 0 auto;
+  display: table !important;
+  text-align: center !important;
+}
+/* line 41, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+ul > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.57143rem;
+  display: block;
+}
+/* line 46, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+ul > li > * {
+  display: block;
+}
+/* line 7, ../scss/components/_centered-lists.scss */
+ul li {
+  display: inline-block;
+  float: none;
+  margin-right: 1em;
+  margin-bottom: 10px;
+}
+
+/* line 1, ../scss/components/_img.scss */
+.avatar {
+  border-radius: 100%;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #b8361b;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  max-width: 120px;
+  display: block;
+  margin: 12px auto;
+}
+
+/* line 11, ../scss/components/_img.scss */
+.avatar-wrap {
+  padding: 24px;
+  background: url('../img/orion.jpg?1400427223') 0 -100px;
+  background-size: cover;
+  max-height: 100px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: 42px;
 }
 
 /* line 1, ../scss/components/_main-content.scss */
@@ -879,87 +955,41 @@ h5 {
   }
 }
 
-/* line 1, ../scss/components/_img.scss */
-.avatar {
-  border-radius: 100%;
-  padding: 4px;
-  background: #fff;
-  border: 1px solid #b8361b;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-  max-width: 120px;
-  display: block;
-  margin: 12px auto;
+/* line 1, ../scss/components/_type.scss */
+h1, h5 {
+  color: #75859E;
 }
 
-/* line 11, ../scss/components/_img.scss */
-.avatar-wrap {
-  padding: 24px;
-  background: #df4727;
-  max-height: 100px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  margin-bottom: 42px;
+/* line 4, ../scss/components/_type.scss */
+h5 {
+  text-transform: uppercase;
 }
 
-/* line 1, ../scss/components/_centered-lists.scss */
-ul {
-  margin: 0 auto 1.21429rem auto;
-  margin-left: -1.57143rem;
-  margin-right: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  margin-left: 0;
-  margin: 0 auto;
-  display: table !important;
-  text-align: center !important;
-}
-/* line 41, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-ul > li {
-  list-style: none;
-  float: left;
-  margin-left: 1.57143rem;
-  display: block;
-}
-/* line 46, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-ul > li > * {
-  display: block;
-}
-/* line 7, ../scss/components/_centered-lists.scss */
-ul li {
-  display: inline-block;
-  float: none;
-  margin-right: 1em;
-  margin-bottom: 10px;
-}
-
-/* line 1, ../scss/components/_about-me.scss */
-.about-me {
-  border: 1px solid #dadada;
-  border-radius: 3px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  vertical-align: middle;
+/* line 6, ../scss/components/_type.scss */
+.img-src {
+  margin: 12px 0;
   text-align: center;
-  background: #fff;
 }
-@media only screen and (min-width: 40.063em) {
-  /* line 1, ../scss/components/_about-me.scss */
-  .about-me {
-    margin-top: 40px;
-  }
+/* line 9, ../scss/components/_type.scss */
+.img-src p {
+  color: #666;
+  font-size: 0.85714rem;
 }
 
-/* line 13, ../scss/components/_about-me.scss */
-.about-me-info {
-  padding: 24px;
+/* line 15, ../scss/components/_type.scss */
+hr {
+  border-color: #edeff2;
+  margin: 36px 0;
 }
-/* line 15, ../scss/components/_about-me.scss */
-.about-me-info p {
-  font-size: 1.28571rem;
-  color: #686868;
+/* line 18, ../scss/components/_type.scss */
+hr:after {
+  display: block;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  top: -21px;
+  margin: 0 auto;
+  background: url('../img/rocket.png?1400428690');
+  background-size: cover;
+  content: "";
 }

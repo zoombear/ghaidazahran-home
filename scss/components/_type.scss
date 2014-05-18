@@ -1,0 +1,29 @@
+h1, h5 {
+  color: #75859E;
+}
+h5 { text-transform: uppercase; }
+
+.img-src {
+  margin: 12px 0;
+  text-align: center;
+  p {
+    color: #666;
+    font-size: rem-calc(12);
+  }
+}
+
+hr {
+  border-color: lighten(#75859E, 40%);
+  margin: 36px 0;
+  &:after {
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: -21px;
+    margin: 0 auto;
+    background: image-url("rocket.png");
+    background-size: cover;
+    content: "";
+  }
+}

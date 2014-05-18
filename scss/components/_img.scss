@@ -10,7 +10,8 @@
 }
 .avatar-wrap {
   padding: 24px;
-  background: $primary-color;
+  background: image-url("orion.jpg") 0 -100px;
+  background-size: cover;
   max-height: 100px;
   -webkit-border-top-left-radius: $global-radius;
   -webkit-border-top-right-radius: $global-radius;
