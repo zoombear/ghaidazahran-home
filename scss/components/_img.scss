@@ -1,0 +1,5 @@
+.avatar {
+  @include radius(100%);
+  padding: 4px;
+  border: 1px solid $secondary-color;
+}
