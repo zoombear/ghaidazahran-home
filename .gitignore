@@ -30,6 +30,7 @@ nbproject
 .idea
 *.sass-cache
 *.ruby-version
+config.codekit
 
 # Komodo
 *.komodoproject
