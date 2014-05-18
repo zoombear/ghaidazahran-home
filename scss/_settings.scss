@@ -24,9 +24,9 @@ $rem-base: $base-font-size;
 // $base-line-height: 150%;
 
 // We use this to control whether or not CSS classes come through in the gem files.
-// $include-html-classes: true;
+$include-html-classes: false;
 // $include-print-styles: true;
-// $include-html-global-classes: $include-html-classes;
+$include-html-global-classes: true;
 
 // Grid
 
@@ -115,11 +115,11 @@ $primary-color: #DF4727;
 // TYPOGRAPHY
 //
 
-// $include-html-type-classes: $include-html-classes;
+$include-html-type-classes: true;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
-$header-font-weight: 700;
+$header-font-family: "ff-enzo-web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: 600;
 // $header-font-style: normal;
 $header-font-color: #222;
 // $header-line-height: 1.4;

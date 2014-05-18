@@ -6,7 +6,7 @@
   box-shadow: 0 1px 8px rgba(0,0,0, .2);
   max-width: 120px;
   display: block;
-  margin: auto;
+  margin: 12px auto;
 }
 .avatar-wrap {
   padding: 24px;
@@ -18,5 +18,5 @@
   -moz-border-radius-topright: $global-radius;
   border-top-left-radius: $global-radius;
   border-top-right-radius: $global-radius;
-  margin-bottom: 24px;
+  margin-bottom: 42px;
 }

@@ -12,4 +12,8 @@
 }
 .about-me-info {
   padding: 24px;
+  p {
+    font-size: rem-calc(18);
+    color: darken($secondary-color, 50%);
+  }
 }

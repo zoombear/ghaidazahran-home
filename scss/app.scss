@@ -45,6 +45,7 @@ h1, h5 {
 h5 { text-transform: uppercase; }
 // Custom Styles
 @import
+  "components/main-content",
   "components/img",
   "components/centered-lists",
   "components/about-me";
