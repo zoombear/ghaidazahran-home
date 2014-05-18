@@ -2113,7 +2113,7 @@ p aside {
 /* line 229, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "museo-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -2130,7 +2130,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 246, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.42857rem;
+  font-size: 2rem;
 }
 
 /* line 247, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2150,7 +2150,7 @@ h4 {
 
 /* line 250, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1.28571rem;
+  font-size: 1rem;
 }
 
 /* line 251, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2372,7 +2372,7 @@ blockquote p {
 
   /* line 426, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 3.14286rem;
+    font-size: 2.71429rem;
   }
 
   /* line 427, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2495,6 +2495,16 @@ blockquote p {
     display: inherit !important;
   }
 }
+/* line 42, ../scss/app.scss */
+h1, h5 {
+  color: #75859E;
+}
+
+/* line 45, ../scss/app.scss */
+h5 {
+  text-transform: uppercase;
+}
+
 /* line 1, ../scss/components/_img.scss */
 .avatar {
   border-radius: 100%;
