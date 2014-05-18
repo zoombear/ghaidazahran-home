@@ -1,0 +1,13 @@
+ul {
+  @include inline-list;
+  margin-left: 0;
+  margin: 0 auto;
+  display: table !important;
+  text-align: center !important;
+  li {
+    display: inline-block;
+    float: none;
+    margin-right: 1em;
+    margin-bottom: 10px;
+  }
+}

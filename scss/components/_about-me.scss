@@ -1,5 +1,15 @@
 .about-me {
-  padding: 4px;
-  border: 1px solid $secondary-color;
-  vertical-align: center;
+  border: 1px solid darken($secondary-color, 5%);
+  @include radius($global-radius);
+  box-shadow: 1px 1px 8px rgba(0,0,0, .1);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  @media #{$medium-up} {
+    margin-top: 40px;
+  }
+}
+.about-me-info {
+  padding: 24px;
 }

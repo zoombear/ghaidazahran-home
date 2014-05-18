@@ -1,5 +1,22 @@
 .avatar {
   @include radius(100%);
   padding: 4px;
-  border: 1px solid $secondary-color;
+  background: #fff;
+  border: 1px solid darken($primary-color, 10%);
+  box-shadow: 0 1px 8px rgba(0,0,0, .2);
+  max-width: 120px;
+  display: block;
+  margin: auto;
+}
+.avatar-wrap {
+  padding: 24px;
+  background: $primary-color;
+  max-height: 100px;
+  -webkit-border-top-left-radius: $global-radius;
+  -webkit-border-top-right-radius: $global-radius;
+  -moz-border-radius-topleft: $global-radius;
+  -moz-border-radius-topright: $global-radius;
+  border-top-left-radius: $global-radius;
+  border-top-right-radius: $global-radius;
+  margin-bottom: 24px;
 }
