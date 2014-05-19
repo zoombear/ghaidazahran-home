@@ -446,7 +446,7 @@ p aside {
 /* Default header styles */
 /* line 229, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-enzo-web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "museo-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #75859e;
@@ -865,7 +865,7 @@ blockquote p {
   }
 }
 
-/* line 1, ../scss/components/_centered-lists.scss */
+/* line 1, ../scss/components/_lists.scss */
 ul {
   margin: 0 auto 1.21429rem auto;
   margin-left: -1.57143rem;
@@ -875,8 +875,8 @@ ul {
   overflow: hidden;
   margin-left: 0;
   margin: 0 auto;
-  display: table !important;
-  text-align: center !important;
+  display: table;
+  text-align: center;
 }
 /* line 41, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 ul > li {
@@ -889,14 +889,22 @@ ul > li {
 ul > li > * {
   display: block;
 }
-/* line 7, ../scss/components/_centered-lists.scss */
+/* line 7, ../scss/components/_lists.scss */
 ul li {
   display: inline-block;
   float: none;
-  margin-right: 1em;
+  margin-right: 1.3rem;
+  margin-left: 1.3rem;
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 40.063em) {
+  /* line 16, ../scss/components/_lists.scss */
+  ul li {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
 /* line 1, ../scss/components/_img.scss */
 .avatar {
   border-radius: 100%;
@@ -967,7 +975,6 @@ ul li {
 /* line 1, ../scss/components/_type.scss */
 h5 {
   text-transform: uppercase;
-  font-weight: 600;
   letter-spacing: .1em;
 }
 
