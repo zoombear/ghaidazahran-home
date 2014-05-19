@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ff-enzo-web", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #222222;
+  color: #75859e;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -458,13 +458,13 @@ h1, h2, h3, h4, h5, h6 {
 /* line 239, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #a5b0c0;
   line-height: 0;
 }
 
 /* line 246, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2rem;
+  font-size: 2.28571rem;
 }
 
 /* line 247, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -495,7 +495,7 @@ h6 {
 /* line 253, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #a5b0c0;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -647,7 +647,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.92857rem;
-  color: #555555;
+  color: #95a1b4;
 }
 /* line 378, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -656,14 +656,14 @@ blockquote cite:before {
 /* line 382, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #95a1b4;
 }
 
 /* line 388, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #a5b0c0;
 }
 
 /* Microformats */
@@ -706,7 +706,7 @@ blockquote p {
 
   /* line 426, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.71429rem;
+    font-size: 3rem;
   }
 
   /* line 427, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -834,8 +834,6 @@ blockquote p {
   border: 1px solid #dadada;
   border-radius: 3px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-  vertical-align: middle;
   text-align: center;
   background: #fff;
   margin-top: 18px;
@@ -847,14 +845,24 @@ blockquote p {
   }
 }
 
-/* line 14, ../scss/components/_about-me.scss */
+/* line 12, ../scss/components/_about-me.scss */
 .about-me-info {
   padding: 24px;
 }
-/* line 16, ../scss/components/_about-me.scss */
+/* line 14, ../scss/components/_about-me.scss */
 .about-me-info p {
   font-size: 1.28571rem;
   color: #686868;
+}
+@media (max-width: 40em) and (orientation: landscape) {
+  /* line 19, ../scss/components/_about-me.scss */
+  .about-me-info h1 {
+    font-size: 3rem;
+  }
+  /* line 20, ../scss/components/_about-me.scss */
+  .about-me-info p {
+    font-size: 1.14286rem;
+  }
 }
 
 /* line 1, ../scss/components/_centered-lists.scss */
@@ -957,41 +965,36 @@ ul li {
 }
 
 /* line 1, ../scss/components/_type.scss */
-h1, h5 {
-  color: #75859E;
-}
-
-/* line 4, ../scss/components/_type.scss */
 h5 {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .1em;
 }
 
-/* line 10, ../scss/components/_type.scss */
+/* line 6, ../scss/components/_type.scss */
 .img-src {
   margin: 12px 0;
   text-align: center;
 }
-/* line 13, ../scss/components/_type.scss */
+/* line 9, ../scss/components/_type.scss */
 .img-src p {
   color: #666;
   font-size: 0.85714rem;
 }
 
-/* line 18, ../scss/components/_type.scss */
+/* line 14, ../scss/components/_type.scss */
 a {
   -webkit-transition: color 200ms;
   /* For Safari 3.1 to 6.0 */
   transition: color 200ms;
 }
 
-/* line 22, ../scss/components/_type.scss */
+/* line 18, ../scss/components/_type.scss */
 hr {
   border-color: #edeff2;
   margin: 36px 0;
 }
-/* line 25, ../scss/components/_type.scss */
+/* line 21, ../scss/components/_type.scss */
 hr:after {
   display: block;
   width: 36px;
